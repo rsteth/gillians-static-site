@@ -1,4 +1,3 @@
-
 const YEARS = ['2023-24','2022','2021'];
 const TABS = document.getElementById('yearTabs');
 const G = document.getElementById('gallery');
@@ -19,14 +18,13 @@ TABS.innerHTML = YEARS.map((y,i)=>tabTemplate(y, i===0)).join('');
 async function loadYear(year, btn){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   if(btn){ btn.classList.add('active'); }
-  const res = await fetch(`/data/work-${year}.json`);
+  const res = await fetch(`../data/work-${year}.json`);
   const items = res.ok ? await res.json() : [];
   G.innerHTML = items.map(it=>`
     <figure class="thumb">
       <img src="${it.src}" alt="${it.title}" onclick="LB.open(this.src, '${it.title} - ${it.medium||''} ${it.size||''} ${it.year||''}')">
       <figcaption>${it.title}${it.year?` (${it.year})`:''}${it.medium?` — ${it.medium}`:''}${it.size?` — ${it.size}`:''}</figcaption>
     </figure>`).join('');
-  if(location.hash){ const targetYear = decodeURIComponent(location.hash.slice(1)); if(targetYear===year){ /* noop */ } }
 }
 
 const initial = decodeURIComponent(location.hash.slice(1)) || YEARS[0];

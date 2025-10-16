@@ -2,16 +2,16 @@
   {
     "title": "Paintings",
     "year": "2023-24",
-    "thumb": "/media/2023-24/sample1.jpg"
+    "thumb": "media/2023-24/sample1.jpg"
   },
   {
     "title": "Studio Installation",
     "year": "2022",
-    "thumb": "/media/2022/sample1.jpg"
+    "thumb": "media/2022/sample1.jpg"
   },
   {
     "title": "Selected Works",
     "year": "2021",
-    "thumb": "/media/2021/sample1.jpg"
+    "thumb": "media/2021/sample1.jpg"
   }
 ]
