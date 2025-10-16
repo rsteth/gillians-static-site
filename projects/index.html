@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Gillian N. Haigh</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/index.html">GILLIAN N. HAIGH</a>
+    <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.menu').classList.toggle('open')">Menu</button>
+    <nav class="menu">
+      <a href="/work/index.html">WORK</a>
+      <a href="/exhibitions/index.html">EXHIBITIONS</a>
+      <a href="/projects/index.html">PROJECTS</a>
+      <a href="/about/index.html">ABOUT / CONTACT</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 style="margin:24px 0">Projects</h1>
+  <section>
+    <h2>IRSSS Fundraiser (2021)</h2>
+    <p>A fundraiser project in support of the Indian Residential School Survivors Society.</p>
+  </section>
+  <section>
+    <h2>Temporary Collective</h2>
+    <p>Performance collective formed from a course at Emily Carr University (2018-).</p>
+  </section>
+  <section>
+    <h2>Writing</h2>
+    <p>Selected writing and press excerpts to be added.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container inner">
+    <div>© <span id="year"></span> Gillian N. Haigh</div>
+    <div><a href="/about/index.html">Contact</a></div>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const path = location.pathname;
+  document.querySelectorAll('.menu a').forEach(a=>{ if(path.startsWith(a.getAttribute('href'))){ a.classList.add('active'); }});
+</script>
+
+</body>
+</html>

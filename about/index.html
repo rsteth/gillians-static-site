@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About / Contact — Gillian N. Haigh</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/index.html">GILLIAN N. HAIGH</a>
+    <button class="mobile-toggle" aria-label="Open menu" onclick="document.querySelector('.menu').classList.toggle('open')">Menu</button>
+    <nav class="menu">
+      <a href="/work/index.html">WORK</a>
+      <a href="/exhibitions/index.html">EXHIBITIONS</a>
+      <a href="/projects/index.html">PROJECTS</a>
+      <a href="/about/index.html">ABOUT / CONTACT</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 style="margin:24px 0">About / Contact</h1>
+  <p>Gillian N. Haigh is a Canadian visual artist based in Los Angeles, California.</p>
+  <p>For enquiries, please email <a href="mailto:ghaigh@shaw.ca">ghaigh@shaw.ca</a>.</p>
+  <p style="color:var(--muted)">You can edit this page at <code>/about/index.html</code>.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container inner">
+    <div>© <span id="year"></span> Gillian N. Haigh</div>
+    <div><a href="/about/index.html">Contact</a></div>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const path = location.pathname;
+  document.querySelectorAll('.menu a').forEach(a=>{ if(path.startsWith(a.getAttribute('href'))){ a.classList.add('active'); }});
+</script>
+
+</body>
+</html>

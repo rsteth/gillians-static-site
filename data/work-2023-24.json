@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Untitled 1",
+    "year": "2023",
+    "medium": "oil on canvas",
+    "size": "30 x 24 in",
+    "src": "/media/2023-24/sample1.jpg"
+  },
+  {
+    "title": "Untitled 2",
+    "year": "2024",
+    "medium": "oil on canvas",
+    "size": "24 x 18 in",
+    "src": "/media/2023-24/sample2.jpg"
+  }
+]
