@@ -12,4 +12,18 @@ async function loadFeatured(){
       </a>
     </article>`).join('');
 }
+
+async function loadHeroCopy(){
+  const heading = document.querySelector('.hero h1');
+  const blurb = document.querySelector('.hero p');
+  try{
+    const res = await fetch('data/content.json');
+    if(!res.ok) return;
+    const data = await res.json();
+    if(data.hero?.headline) heading.textContent = data.hero.headline;
+    if(data.hero?.subhead) blurb.textContent = data.hero.subhead;
+  }catch(e){}
+}
+
 loadFeatured();
+loadHeroCopy();

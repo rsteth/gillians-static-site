@@ -21,18 +21,7 @@
 </header>
 <main class="container">
   <h1 style="margin:24px 0">Projects</h1>
-  <section>
-    <h2>IRSSS Fundraiser (2021)</h2>
-    <p>A fundraiser project in support of the Indian Residential School Survivors Society.</p>
-  </section>
-  <section>
-    <h2>Temporary Collective</h2>
-    <p>Performance collective formed from a course at Emily Carr University (2018-).</p>
-  </section>
-  <section>
-    <h2>Writing</h2>
-    <p>Selected writing and press excerpts to be added.</p>
-  </section>
+  <div id="projects" class="stack"></div>
 </main>
 <footer class="site-footer">
   <div class="container inner">
@@ -49,6 +38,48 @@
       if(u.pathname === path || path.endsWith(u.pathname)) a.classList.add('active');
     }catch(e){}
   });
+
+  const container = document.getElementById('projects');
+
+  const renderFallback = () => {
+    container.innerHTML = `
+      <section>
+        <h2>IRSSS Fundraiser (2021)</h2>
+        <p>A fundraiser project in support of the Indian Residential School Survivors Society.</p>
+      </section>
+      <section>
+        <h2>Temporary Collective</h2>
+        <p>Performance collective formed from a course at Emily Carr University (2018-).</p>
+      </section>
+      <section>
+        <h2>Writing</h2>
+        <p>Selected writing and press excerpts to be added.</p>
+      </section>`;
+  };
+
+  fetch('../data/content.json')
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(data => {
+      const projects = data.projects || [];
+      container.innerHTML = '';
+      projects.forEach(item => {
+        const sec = document.createElement('section');
+        if (item.title) {
+          const h = document.createElement('h2');
+          h.textContent = item.title;
+          sec.appendChild(h);
+        }
+        if (item.summary) {
+          const p = document.createElement('p');
+          p.textContent = item.summary;
+          sec.appendChild(p);
+        }
+        container.appendChild(sec);
+      });
+
+      if (!container.children.length) renderFallback();
+    })
+    .catch(renderFallback);
 </script>
 </body>
 </html>

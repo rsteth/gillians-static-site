@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "headline": "Gillian N. Haigh",
+    "subhead": "Canadian visual artist based in Los Angeles, sharing paintings, exhibitions, and projects."
+  },
+  "about": [
+    "Gillian N. Haigh is a Canadian visual artist based in Los Angeles, California. Her practice centres on painting, layering gesture and colour to trace memory, place, and the body.",
+    "Recent work explores a shifting sense of landscape and home, moving between the West Coast of Canada and Southern California."
+  ],
+  "contact": {
+    "email": "ghaigh@shaw.ca"
+  },
+  "exhibitions": [
+    { "year": "2023", "title": "Monica Reyes Gallery", "location": "Vancouver" },
+    { "year": "2022", "title": "Banff Centre for Arts and Creativity", "location": "Banff" },
+    { "year": "2022", "title": "IN/OUT", "location": "Vancouver" },
+    { "year": "2021", "title": "Headline Gallery", "location": "Vancouver" },
+    { "year": "2021", "title": "Port Moody Arts Centre", "location": "Port Moody" },
+    { "year": "2021", "title": "Young Space", "location": "Online" }
+  ],
+  "projects": [
+    {
+      "title": "IRSSS Fundraiser (2021)",
+      "summary": "Fundraising print project supporting the Indian Residential School Survivors Society."
+    },
+    {
+      "title": "Temporary Collective",
+      "summary": "Performance collective formed through a course at Emily Carr University (2018-), collaborating across movement and installation."
+    },
+    {
+      "title": "Writing",
+      "summary": "Selected writing and press excerpts to be added."
+    }
+  ]
+}

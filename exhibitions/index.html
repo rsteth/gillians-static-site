@@ -21,14 +21,7 @@
 </header>
 <main class="container">
   <h1 style="margin:24px 0">Exhibitions</h1>
-  <ul>
-    <li><strong>2023</strong> — Monica Reyes Gallery, Vancouver</li>
-    <li><strong>2022</strong> — Banff Centre for Arts and Creativity</li>
-    <li><strong>2022</strong> — IN/OUT</li>
-    <li><strong>2021</strong> — Headline Gallery</li>
-    <li><strong>2021</strong> — Port Moody Arts Centre</li>
-    <li><strong>2021</strong> — Young Space</li>
-  </ul>
+  <ul id="exhibitionList" class="stack"></ul>
 </main>
 <footer class="site-footer">
   <div class="container inner">
@@ -45,6 +38,41 @@
       if(u.pathname === path || path.endsWith(u.pathname)) a.classList.add('active');
     }catch(e){}
   });
+
+  const list = document.getElementById('exhibitionList');
+
+  const renderFallback = () => {
+    list.innerHTML = `
+      <li><strong>2023</strong> — Monica Reyes Gallery, Vancouver</li>
+      <li><strong>2022</strong> — Banff Centre for Arts and Creativity</li>
+      <li><strong>2022</strong> — IN/OUT</li>
+      <li><strong>2021</strong> — Headline Gallery</li>
+      <li><strong>2021</strong> — Port Moody Arts Centre</li>
+      <li><strong>2021</strong> — Young Space</li>`;
+  };
+
+  fetch('../data/content.json')
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(data => {
+      const exhibitions = data.exhibitions || [];
+      list.innerHTML = '';
+      exhibitions.forEach(item => {
+        const li = document.createElement('li');
+        const bits = [item.year, item.title, item.location].filter(Boolean);
+        if (item.year) {
+          const strong = document.createElement('strong');
+          strong.textContent = item.year;
+          li.appendChild(strong);
+          if (item.title || item.location) li.append(' — ');
+        }
+        if (item.title) li.append(item.title);
+        if (item.location) li.append(`, ${item.location}`);
+        list.appendChild(li);
+      });
+
+      if (!list.children.length) renderFallback();
+    })
+    .catch(renderFallback);
 </script>
 </body>
 </html>
