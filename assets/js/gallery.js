@@ -1,4 +1,4 @@
-const YEARS = ['2023-24','2022','2021'];
+const YEARS = ['2025','2023-24','2022','2021','2020'];
 const TABS = document.getElementById('yearTabs');
 const G = document.getElementById('gallery');
 const LB = {
