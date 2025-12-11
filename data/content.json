@@ -11,25 +11,94 @@
     "email": "ghaigh@shaw.ca"
   },
   "exhibitions": [
-    { "year": "2023", "title": "Monica Reyes Gallery", "location": "Vancouver" },
-    { "year": "2022", "title": "Banff Centre for Arts and Creativity", "location": "Banff" },
-    { "year": "2022", "title": "IN/OUT", "location": "Vancouver" },
-    { "year": "2021", "title": "Headline Gallery", "location": "Vancouver" },
-    { "year": "2021", "title": "Port Moody Arts Centre", "location": "Port Moody" },
-    { "year": "2021", "title": "Young Space", "location": "Online" }
+    {
+      "year": "2023",
+      "title": "The change that weakens the hour",
+      "venue": "Monica Reyes Gallery",
+      "location": "Vancouver",
+      "date": "March 2023",
+      "slug": "2023-monica-reyes-gallery",
+      "description": "Exhibition text by Chelsea Yuill. The internet is synonymous with the artist sketchbook, an unending data pool of our lives uploaded, a repository for our collective unconscious. Crowdsourced pixels become the source material for the bones of another image: a painting, a sculpture, a film, a photograph, a textile. The translation of the digital image from one medium to the next is proving to know few bounds. How much art produced today exists uninfluenced by the internet? Vancouver-based artist Gillian Haigh wants to make a painting that is and can only be the thing itself: a painting. Each artwork begins from an unexpected and ironic starting point: the internet. Mining this archive of collective imagination, Haigh zooms in on unremarkable, nondescript images. She gets so close to and digitally alters the subject or object that they become illegible and are pared down to their essence: a surface, a shape, a pattern. Although Haigh sees these images as unimportant, her process speaks to the magnitude of disposable, inconsequential images that permeate our personal and public lives. As a means to an end, Haigh translates the cursory image into an evocative and optical painting within, at times, thirteen-hour sittings. Each painting blurs to rupture perception, time, and language, becoming a world containing its own index of inherited, borrowed, and reconfigured logic and syntax. Nothing made can be without reference. For Haigh, she teeters between admiration and contention, learning and unlearning of modernist and conceptualist rhetorics. Between this push and pull, she invokes queer thought by using a 'textual and visual vocabulary where we lose our linguistic mooring.' A string of words; linework that blurs the likeness of figuration and abstraction. It is not one or the other it is both and other things too. A throughline of the change that weakens the hour, is the push and pull tension emphasized by using monochromatic and blurring visual strategies. The fast readability and directness of the monochrome is deceptive. The gradient has a presence of depth and aura, subtly shifting, never settled. Blurring compliments the gradient, softening its direct unsettling mood. The feeling that the painting may never dry, may never be finished. Contained within the labour-intensive periods of making the painting, the responsiveness of the material, the liquidity of the paint is an evolving call and response informed by maker and material. Laurie Anderson aptly sang, 'language is a virus,' and it is in everything we do. Language: visual, physical, verbal, or text, is –for humans– a foundational point in how we create, affirm, rupture, and re-establish meaning. Language is how we build worlds. Images do not just speak; they talk back."
+    },
+    {
+      "year": "2022",
+      "title": "Studio Installation",
+      "venue": "Banff Centre for Arts and Creativity",
+      "location": "Banff",
+      "date": "2022",
+      "slug": "2022-banff-centre",
+      "description": "Studio installation at the Banff Centre for Arts and Creativity 2022. Images: Felix Rapp and Rita Taylor, Banff Centre 2022."
+    },
+    {
+      "year": "2022",
+      "title": "IN/OUT",
+      "venue": "Banff Centre for Arts and Creativity",
+      "location": "Banff",
+      "date": "2022",
+      "slug": "2022-inout",
+      "description": "IN/OUT - Group Exhibition at the Banff Centre for Arts and Creativity. Artists: Ayam Yaldo, Felix Rapp, Gillian Haigh, Greg Staats, Holly Chang, Joy Wong, Lauren Chipeur, Myung-Sun Kim, Reyhan Yazdani, Sharon Norwood, Walter Scott. Curated by Felix Rapp, all images credits Felix Rapp 2022."
+    },
+    {
+      "year": "2021",
+      "title": "Readability: Internal Landscapes",
+      "venue": "Headline Gallery",
+      "location": "Vancouver",
+      "date": "October 20th - November 19th 2021",
+      "slug": "2021-headline-gallery",
+      "link": "https://headlinegallery.com/viewing-room/2-readability-through-the-lens/",
+      "description": "Digital exhibition: October 20th - November 19th 2021. Painting is a language with many co-existing dualities; a painting functions as an image but also as an object and surface; is historical and modern; and, is grounded in both conceptual and material conversations. Centred in this medium, my practice is invested in examining when these opposing aspects collide. I want to make something that necessarily has to be a painting; engaging in the material particularities of the medium understood as adaptive, self-organizing and irreducible to other frameworks. In my studio practice, this translates to speculative thinking and making, listening to how the medium moves and speaks. Grounded in materiality, my research surrounds the 'readability' of images, materials and text, particularly how these semiotic systems intersect. While text has a long relationship describing and demarcating painting and sculpture — especially in discourse around conceptual art — I am curious as to how the descriptive power of materials and language, side by side, may destabilize or unfurl. While I work with forms of figurative imagery, I invested in finding and creating moments that refuse to immediately disclose their meaning or significance. Similarly I am drawn to textual moments where we lose our linguistic mooring, the allusion of stability in symbolic language. Where language refuses to consistently index meaning, it collapses the way in which the words operate in their singularity. I see this functioning similarly in textual and material languages; meaning is a continuously evolving present, being made and remade with each reading. It shimmers and becomes elusive. The semiotic wobble and vibration emphasizes the fragility of the relationship between the object and the subject; the thing in the world and the ways in which we as subjects enact and bring meaning to them."
+    },
+    {
+      "year": "2021",
+      "title": "Enough Choice Makes a Steady Midnight",
+      "venue": "Port Moody Arts Centre",
+      "location": "Port Moody",
+      "date": "May 20th - June 20th 2021",
+      "slug": "2021-port-moody",
+      "link": "https://pomoarts.ca/exhibitions/enough-choice-makes-a-steady-midnight",
+      "description": "Port Moody Arts Centre, May 20th - June 20th 2021."
+    },
+    {
+      "year": "2021",
+      "title": "Young Space",
+      "venue": "Young Space",
+      "location": "Online",
+      "date": "2021",
+      "slug": "2021-young-space",
+      "link": "https://views.yngspc.com",
+      "description": "Online exhibition at Young Space."
+    }
   ],
   "projects": [
     {
-      "title": "IRSSS Fundraiser (2021)",
-      "summary": "Fundraising print project supporting the Indian Residential School Survivors Society."
+      "title": "2021 IRSSS Fundraiser",
+      "slug": "2021-irsss-fundraiser",
+      "year": "2021",
+      "summary": "Residential School Survivor Society Fundraiser. Proceeds of sales were donated to the Indian Residential School Survivor Society. IRSSS provides essential services to Residential School Survivors, their families, and those dealing with Intergenerational traumas. These impacts affect every family and every community across B.C. and Canada.",
+      "link": "https://www.irsss.ca",
+      "details": "Work was available to purchase June 30th - July 4th online. Contributing artists included: Zoe Cire, Carlyn Yandle, Taryn Sheppard, Shawna Kiesman, Maggee Day, May Ann Villanueva, Olivia Di Liberto, Mark George, Monique Motut-Firth, Jonathan H Alfaro, Laura Clark, Jack Kenna, Nicole Ponsart, and Gillian Haigh."
     },
     {
       "title": "Temporary Collective",
-      "summary": "Performance collective formed through a course at Emily Carr University (2018-), collaborating across movement and installation."
+      "slug": "temporary-collective",
+      "year": "2018-",
+      "summary": "Temporary Collective evolved out of a performance course taught by Randy Lee Cutler in the spring of 2018 at Emily Carr University. Members of the collective include Tianna Barton, Fadwa Bouziane, Keely Bruce, Randy Lee Cutler, Matthew Dillon, Maya Gauvin, Mimi Gonzalez Guerra, Gillian Haigh, Caroline Lee and Brigitte Patenaude.",
+      "description": "Responses to the Collection is an ongoing series that invites a broad range of guest contributors to select work from the Outdoor Art Collection as subjects for reflection and response. Exploring how the UBC campus can be a fruitful place for experimentation and learning, Temporary Collective have come together to perform through movement and rhythmic gestures, responses to Asiatic Head by Otto Fischer-Credo (1958/1977) and The Shadow by Esther Shalev-Gerz (2018). The collective of ten artists attempts to dialogue with these two very different artworks by generating an embodied engagement with site, materiality and history."
     },
     {
       "title": "Writing",
-      "summary": "Selected writing and press excerpts to be added."
+      "slug": "writing",
+      "summary": "Selected writing and press.",
+      "articles": [
+        {
+          "title": "Speculative Methodologies: Veils of a Bog at the Western Front",
+          "publication": "Peripheral Review",
+          "year": "2018",
+          "link": "https://peripheralreview.com/2018/12/13/speculative-methodologies-veils-of-a-bog-at-the-western-front/",
+          "excerpt": "Just beyond the small reception area of the Western Front, a black doorway called to me. Inside, a chorus of echoing crickets and croaks harmonized with an unworldly drone. The noise beckoned me into the tenebrous space, pulling me through the doorway into a cloth hallway cloaked in total darkness..."
+        }
+      ]
     }
-  ]
+  ],
+  "workYears": ["2025", "2023/24", "2022", "2021", "2020"]
 }

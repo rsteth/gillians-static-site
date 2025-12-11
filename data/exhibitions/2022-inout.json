@@ -1,0 +1,38 @@
+{
+  "title": "IN/OUT",
+  "venue": "Banff Centre for Arts and Creativity",
+  "location": "Banff",
+  "date": "2022",
+  "year": "2022",
+  "type": "group",
+  "curatedBy": "Felix Rapp",
+  "imageCredits": "Felix Rapp 2022",
+  "artists": [
+    "Ayam Yaldo",
+    "Felix Rapp",
+    "Gillian Haigh",
+    "Greg Staats",
+    "Holly Chang",
+    "Joy Wong",
+    "Lauren Chipeur",
+    "Myung-Sun Kim",
+    "Reyhan Yazdani",
+    "Sharon Norwood",
+    "Walter Scott"
+  ],
+  "description": [
+    "IN/OUT - Group Exhibition at the Banff Centre for Arts and Creativity."
+  ],
+  "images": [
+    { "src": "/media/exhibitions/2022-inout/0W0A0076.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0080.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0084.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/image-text.jpg", "alt": "Image:Text, 2022, 36 x 36 inches, oil on canvas" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0088.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0099.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0102.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0105.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0107.jpg", "alt": "Exhibition view" },
+    { "src": "/media/exhibitions/2022-inout/0W0A0109.jpg", "alt": "Exhibition view" }
+  ]
+}

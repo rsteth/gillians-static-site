@@ -1,17 +1,32 @@
 [
   {
-    "title": "Paintings",
-    "year": "2023-24",
-    "thumb": "/media/2023-24/sample1.jpg"
+    "title": "Recent Work",
+    "year": "2025",
+    "slug": "2025",
+    "thumb": "/media/2025/work-01.jpg"
   },
   {
-    "title": "Studio Installation",
+    "title": "Paintings",
+    "year": "2023/24",
+    "slug": "2023-24",
+    "thumb": "/media/2023-24/work-01.jpg"
+  },
+  {
+    "title": "Paintings & Sculpture",
     "year": "2022",
-    "thumb": "/media/2022/sample1.jpg"
+    "slug": "2022",
+    "thumb": "/media/2022/dirt-not-copper.jpg"
   },
   {
     "title": "Selected Works",
     "year": "2021",
-    "thumb": "/media/2021/sample1.jpg"
+    "slug": "2021",
+    "thumb": "/media/2021/work-01.jpg"
+  },
+  {
+    "title": "Selected Works",
+    "year": "2020",
+    "slug": "2020",
+    "thumb": "/media/2020/work-01.jpg"
   }
 ]

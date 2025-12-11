@@ -1,0 +1,74 @@
+{
+  "title": "Residential School Survivor Society Fundraiser",
+  "year": "2021",
+  "date": "June 30th - July 4th 2021",
+  "link": "https://www.irsss.ca",
+  "description": [
+    "Proceeds of sales were donated to the Indian Residential School Survivor Society.",
+    "IRSSS provides essential services to Residential School Survivors, their families, and those dealing with Intergenerational traumas. These impacts affect every family and every community across B.C. and Canada.",
+    "Work was available to purchase June 30th - July 4th online. Work was available for pickup at 1610 Pandora Street on Wednesday July 7th and July 9th from 5-8pm."
+  ],
+  "contributingArtists": [
+    {
+      "name": "Zoe Cire",
+      "works": ["Twirling Unto", "Orange Floral Earrings"]
+    },
+    {
+      "name": "Carlyn Yandle",
+      "works": ["Home Sweet Home"]
+    },
+    {
+      "name": "Taryn Sheppard",
+      "works": ["Day for Night I", "Day for Night II"]
+    },
+    {
+      "name": "Shawna Kiesman",
+      "works": ["Deep Roots", "Matriarch", "Front Bentwood Box"]
+    },
+    {
+      "name": "Maggee Day",
+      "works": ["Fragment #2"]
+    },
+    {
+      "name": "May Ann Villanueva",
+      "works": ["Everyday Mug"]
+    },
+    {
+      "name": "Olivia Di Liberto",
+      "works": ["Sugar Dreams"]
+    },
+    {
+      "name": "Mark George",
+      "works": ["Shade"]
+    },
+    {
+      "name": "Monique Motut-Firth",
+      "works": ["Free Cola Oil"]
+    },
+    {
+      "name": "Jonathan H Alfaro",
+      "works": ["Ugly Old Man Suit"]
+    },
+    {
+      "name": "Laura Clark",
+      "works": ["Resting With Emotion", "Laura Clark Art Tee", "Laura Clark Art Tote"]
+    },
+    {
+      "name": "Jack Kenna",
+      "works": ["Tomatoes and Lemons", "Sunflowers"]
+    },
+    {
+      "name": "Nicole Ponsart",
+      "works": ["Picked Up Along the Way"]
+    },
+    {
+      "name": "Gillian Haigh",
+      "works": ["Study for Noon and Moon and Moon"],
+      "price": "$350.00",
+      "details": "oil on canvas, 20\" x 16\""
+    }
+  ],
+  "images": [
+    { "src": "/media/projects/irsss/gillian-work.jpg", "alt": "Study for Noon and Moon and Moon by Gillian Haigh" }
+  ]
+}
