@@ -1,58 +1,58 @@
 [
   {
-    "title": "Untitled",
+    "title": "Install",
     "year": "2025",
-    "medium": "oil on canvas",
+    "medium": "ink on paper, metal armature",
     "size": "",
-    "src": "/media/2025/work-01.jpg"
+    "src": "/media/2025/InstallShotSummer2025.jpg"
   },
   {
     "title": "Untitled",
     "year": "2025",
-    "medium": "oil on canvas",
-    "size": "",
-    "src": "/media/2025/work-02.jpg"
+    "medium": "ink on bristol paperr",
+    "size": "96 x 42 inches",
+    "src": "/media/2025/Untitled012025.jpg"
   },
   {
-    "title": "Untitled",
+    "title": "Install",
+    "year": "2025",
+    "medium": "ink on Bristol paper, oil on canvas",
+    "size": "",
+    "src": "/media/2025/InstallCentreBay2025.jpg"
+  },
+  {
+    "title": "Getting Older Never Wiser",
+    "year": "2025",
+    "medium": "oil on canvas, dress pins",
+    "size": "",
+    "src": "/media/2025/GettingOlderNeverWiserFront.jpg"
+  },
+  {
+    "title": "Getting Older Never Wiser",
+    "year": "2025",
+    "medium": "oil on canvas, dress pins",
+    "size": "",
+    "src": "/media/2025/GettingOlderNeverWiserSide.jpg"
+  },
+  {
+    "title": "Armature I",
+    "year": "2025",
+    "medium": "ink on cotton and pulp rag",
+    "size": "",
+    "src": "/media/2025/Armature01.jpg"
+  },
+  {
+    "title": "Armature II",
+    "year": "2025",
+    "medium": "ink on cotton and pulp rag",
+    "size": "",
+    "src": "/media/2025/Armature02.jpg"
+  },
+  {
+    "title": "Install",
     "year": "2025",
     "medium": "oil on canvas",
     "size": "",
-    "src": "/media/2025/work-03.jpg"
-  },
-  {
-    "title": "Untitled",
-    "year": "2025",
-    "medium": "oil on canvas",
-    "size": "",
-    "src": "/media/2025/work-04.jpg"
-  },
-  {
-    "title": "Untitled",
-    "year": "2025",
-    "medium": "oil on canvas",
-    "size": "",
-    "src": "/media/2025/work-05.jpg"
-  },
-  {
-    "title": "Untitled",
-    "year": "2025",
-    "medium": "oil on canvas",
-    "size": "",
-    "src": "/media/2025/work-06.jpg"
-  },
-  {
-    "title": "Untitled",
-    "year": "2025",
-    "medium": "oil on canvas",
-    "size": "",
-    "src": "/media/2025/work-07.jpg"
-  },
-  {
-    "title": "Untitled",
-    "year": "2025",
-    "medium": "oil on canvas",
-    "size": "",
-    "src": "/media/2025/work-08.jpg"
+    "src": "/media/2025/OpenStudio202501.jpg"
   }
 ]
