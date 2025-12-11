@@ -21,8 +21,8 @@
 </header>
 <main class="container">
   <h1 style="margin:24px 0">About / Contact</h1>
-  <p>Gillian N. Haigh is a Canadian visual artist based in Los Angeles, California.</p>
-  <p>For enquiries, please email <a href="mailto:ghaigh@shaw.ca">ghaigh@shaw.ca</a>.</p>
+  <div id="aboutCopy" class="stack"></div>
+  <div id="contact" class="stack"></div>
 </main>
 <footer class="site-footer">
   <div class="container inner">
@@ -39,6 +39,52 @@
       if(u.pathname === path || path.endsWith(u.pathname)) a.classList.add('active');
     }catch(e){}
   });
+
+  const aboutCopy = document.getElementById('aboutCopy');
+  const contactBox = document.getElementById('contact');
+
+  const renderFallback = () => {
+    aboutCopy.innerHTML = '';
+    const p1 = document.createElement('p');
+    p1.textContent = 'Gillian N. Haigh is a Canadian visual artist based in Los Angeles, California.';
+    const p2 = document.createElement('p');
+    p2.textContent = 'Recent work explores a shifting sense of landscape and home.';
+    aboutCopy.append(p1, p2);
+
+    contactBox.innerHTML = '';
+    const p3 = document.createElement('p');
+    p3.innerHTML = 'For enquiries, please email <a href="mailto:ghaigh@shaw.ca">ghaigh@shaw.ca</a>.';
+    contactBox.appendChild(p3);
+  };
+
+  fetch('../data/content.json')
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(data => {
+      const about = data.about || [];
+      aboutCopy.innerHTML = '';
+      about.forEach(text => {
+        const p = document.createElement('p');
+        p.textContent = text;
+        aboutCopy.appendChild(p);
+      });
+
+      const contact = data.contact || {};
+      contactBox.innerHTML = '';
+      if (contact.email) {
+        const p = document.createElement('p');
+        p.innerHTML = `For enquiries, please email <a href="mailto:${contact.email}">${contact.email}</a>.`;
+        contactBox.appendChild(p);
+      }
+
+      if (!contactBox.children.length) {
+        const p = document.createElement('p');
+        p.innerHTML = 'For enquiries, please email <a href="mailto:ghaigh@shaw.ca">ghaigh@shaw.ca</a>.';
+        contactBox.appendChild(p);
+      }
+
+      if (!aboutCopy.children.length) renderFallback();
+    })
+    .catch(renderFallback);
 </script>
 </body>
 </html>
