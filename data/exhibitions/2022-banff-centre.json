@@ -9,20 +9,20 @@
     "Studio installation at the Banff Centre for Arts and Creativity 2022."
   ],
   "images": [
-    { "src": "/media/exhibitions/2022-banff/0W0A0247.jpg", "alt": "Studio installation view" },
-    { "src": "/media/exhibitions/2022-banff/0W0A0250.jpg", "alt": "Studio installation view" },
-    { "src": "/media/exhibitions/2022-banff/0W0A0252.jpg", "alt": "Studio installation view" },
-    { "src": "/media/exhibitions/2022-banff/0W0A0253.jpg", "alt": "Studio installation view" },
-    { "src": "/media/exhibitions/2022-banff/soap-and-silk.jpg", "alt": "Soap and Silk, oil on canvas" },
-    { "src": "/media/exhibitions/2022-banff/mirror-and-light.jpg", "alt": "The Mirror and The Light, 2022, hair, beeswax, bronze, nail" },
-    { "src": "/media/exhibitions/2022-banff/mirror-and-light-detail-01.jpg", "alt": "The Mirror and The Light, 2022, hair, beeswax, bronze, nail (detail I)" },
-    { "src": "/media/exhibitions/2022-banff/mirror-and-light-detail-02.jpg", "alt": "The Mirror and The Light, 2022, hair, beeswax, bronze, nail (detail II)" },
-    { "src": "/media/exhibitions/2022-banff/mirror-and-light-full.jpg", "alt": "The Mirror and The Light" },
-    { "src": "/media/exhibitions/2022-banff/lipslip.jpg", "alt": "lipslip, 2022 bronze" },
-    { "src": "/media/exhibitions/2022-banff/little-leading-mention.jpg", "alt": "Little Leading Mention Nothing, 2022, oil on canvas and bronze" },
-    { "src": "/media/exhibitions/2022-banff/DSCF0434.jpg", "alt": "Studio view" },
-    { "src": "/media/exhibitions/2022-banff/dirt-not-copper.jpg", "alt": "Dirt Not Copper Makes a Color Darker, 2022 oil on canvas, 61 x 48 inches" },
-    { "src": "/media/exhibitions/2022-banff/DSCF0453.jpg", "alt": "Studio view" },
-    { "src": "/media/exhibitions/2022-banff/untitled.jpg", "alt": "Untitled, 2022 oil on canvas" }
+    { "src": "media/exhibitions/2022-banff/0W0A0247.jpg", "alt": "Studio installation view" },
+    { "src": "media/exhibitions/2022-banff/0W0A0250.jpg", "alt": "Studio installation view" },
+    { "src": "media/exhibitions/2022-banff/0W0A0252.jpg", "alt": "Studio installation view" },
+    { "src": "media/exhibitions/2022-banff/0W0A0253.jpg", "alt": "Studio installation view" },
+    { "src": "media/exhibitions/2022-banff/soap-and-silk.jpg", "alt": "Soap and Silk, oil on canvas" },
+    { "src": "media/exhibitions/2022-banff/mirror-and-light.jpg", "alt": "The Mirror and The Light, 2022, hair, beeswax, bronze, nail" },
+    { "src": "media/exhibitions/2022-banff/mirror-and-light-detail-01.jpg", "alt": "The Mirror and The Light, 2022, hair, beeswax, bronze, nail (detail I)" },
+    { "src": "media/exhibitions/2022-banff/mirror-and-light-detail-02.jpg", "alt": "The Mirror and The Light, 2022, hair, beeswax, bronze, nail (detail II)" },
+    { "src": "media/exhibitions/2022-banff/mirror-and-light-full.jpg", "alt": "The Mirror and The Light" },
+    { "src": "media/exhibitions/2022-banff/lipslip.jpg", "alt": "lipslip, 2022 bronze" },
+    { "src": "media/exhibitions/2022-banff/little-leading-mention.jpg", "alt": "Little Leading Mention Nothing, 2022, oil on canvas and bronze" },
+    { "src": "media/exhibitions/2022-banff/DSCF0434.jpg", "alt": "Studio view" },
+    { "src": "media/exhibitions/2022-banff/dirt-not-copper.jpg", "alt": "Dirt Not Copper Makes a Color Darker, 2022 oil on canvas, 61 x 48 inches" },
+    { "src": "media/exhibitions/2022-banff/DSCF0453.jpg", "alt": "Studio view" },
+    { "src": "media/exhibitions/2022-banff/untitled.jpg", "alt": "Untitled, 2022 oil on canvas" }
   ]
 }

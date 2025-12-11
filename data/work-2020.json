@@ -5,7 +5,7 @@
     "medium": "oil on canvas",
     "size": "42 x 35 inches",
     "status": "sold",
-    "src": "/media/2020/work-01.jpg"
+    "src": "media/2020/work-01.jpg"
   },
   {
     "title": "Untitled",
@@ -13,7 +13,7 @@
     "medium": "oil on canvas",
     "size": "42 x 35 inches",
     "status": "sold",
-    "src": "/media/2020/work-02.jpg"
+    "src": "media/2020/work-02.jpg"
   },
   {
     "title": "Untitled",
@@ -21,7 +21,7 @@
     "medium": "oil on canvas",
     "size": "42 x 35 inches",
     "status": "sold",
-    "src": "/media/2020/work-03.jpg"
+    "src": "media/2020/work-03.jpg"
   },
   {
     "title": "Untitled",
@@ -29,70 +29,70 @@
     "medium": "oil on canvas",
     "size": "42 x 35 inches",
     "status": "sold",
-    "src": "/media/2020/work-04.jpg"
+    "src": "media/2020/work-04.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "54 x 45 inches",
-    "src": "/media/2020/work-05.jpg"
+    "src": "media/2020/work-05.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "54 x 45 inches",
-    "src": "/media/2020/work-06.jpg"
+    "src": "media/2020/work-06.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
-    "src": "/media/2020/work-07.jpg"
+    "src": "media/2020/work-07.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
-    "src": "/media/2020/work-08.jpg"
+    "src": "media/2020/work-08.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "37 x 30.5 inches",
-    "src": "/media/2020/work-09.jpg"
+    "src": "media/2020/work-09.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "37 x 30.5 inches",
-    "src": "/media/2020/work-10.jpg"
+    "src": "media/2020/work-10.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "37 x 30.5 inches",
-    "src": "/media/2020/work-11.jpg"
+    "src": "media/2020/work-11.jpg"
   },
   {
     "title": "Untitled",
     "year": "2021",
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
-    "src": "/media/2020/work-12.jpg"
+    "src": "media/2020/work-12.jpg"
   },
   {
     "title": "Untitled",
     "year": "2021",
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
-    "src": "/media/2020/work-13.jpg"
+    "src": "media/2020/work-13.jpg"
   },
   {
     "title": "Untitled",
@@ -100,7 +100,7 @@
     "medium": "sugar on paper",
     "size": "14 x 11 inches framed",
     "status": "sold",
-    "src": "/media/2020/sugar-01.jpg"
+    "src": "media/2020/sugar-01.jpg"
   },
   {
     "title": "Untitled",
@@ -108,7 +108,7 @@
     "medium": "sugar on paper",
     "size": "14 x 11 inches framed",
     "status": "sold",
-    "src": "/media/2020/sugar-02.jpg"
+    "src": "media/2020/sugar-02.jpg"
   },
   {
     "title": "Untitled",
@@ -116,7 +116,7 @@
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
     "status": "sold",
-    "src": "/media/2020/work-14.jpg"
+    "src": "media/2020/work-14.jpg"
   },
   {
     "title": "Untitled",
@@ -124,13 +124,13 @@
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
     "status": "sold",
-    "src": "/media/2020/work-15.jpg"
+    "src": "media/2020/work-15.jpg"
   },
   {
     "title": "Untitled",
     "year": "2020",
     "medium": "oil on canvas",
     "size": "36 x 24 inches",
-    "src": "/media/2020/work-16.jpg"
+    "src": "media/2020/work-16.jpg"
   }
 ]

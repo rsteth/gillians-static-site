@@ -13,8 +13,8 @@
     "Laurie Anderson aptly sang, 'language is a virus,' and it is in everything we do. Language: visual, physical, verbal, or text, is –for humans– a foundational point in how we create, affirm, rupture, and re-establish meaning. Language is how we build worlds. Images do not just speak; they talk back."
   ],
   "images": [
-    { "src": "/media/exhibitions/2023-monica-reyes/install-01.jpg", "alt": "Installation view" },
-    { "src": "/media/exhibitions/2023-monica-reyes/install-02.jpg", "alt": "Installation view" },
-    { "src": "/media/exhibitions/2023-monica-reyes/install-03.jpg", "alt": "Installation view" }
+    { "src": "media/exhibitions/2023-monica-reyes/install-01.jpg", "alt": "Installation view" },
+    { "src": "media/exhibitions/2023-monica-reyes/install-02.jpg", "alt": "Installation view" },
+    { "src": "media/exhibitions/2023-monica-reyes/install-03.jpg", "alt": "Installation view" }
   ]
 }

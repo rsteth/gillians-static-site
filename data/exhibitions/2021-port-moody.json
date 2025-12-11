@@ -9,6 +9,6 @@
     "Solo exhibition at Port Moody Arts Centre."
   ],
   "images": [
-    { "src": "/media/exhibitions/2021-port-moody/install-01.jpg", "alt": "Installation view" }
+    { "src": "media/exhibitions/2021-port-moody/install-01.jpg", "alt": "Installation view" }
   ]
 }

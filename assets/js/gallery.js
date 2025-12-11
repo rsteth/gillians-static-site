@@ -20,11 +20,14 @@ async function loadYear(year, btn){
   if(btn){ btn.classList.add('active'); }
   const res = await fetch(`../data/work-${year}.json`);
   const items = res.ok ? await res.json() : [];
-  G.innerHTML = items.map(it=>`
+  G.innerHTML = items.map(it=>{
+    const imgSrc = it.src.startsWith('media/') ? '../' + it.src : it.src;
+    return `
     <figure class="thumb">
-      <img src="${it.src}" alt="${it.title}" onclick="LB.open(this.src, '${it.title} - ${it.medium||''} ${it.size||''} ${it.year||''}')">
+      <img src="${imgSrc}" alt="${it.title}" onclick="LB.open(this.src, '${it.title} - ${it.medium||''} ${it.size||''} ${it.year||''}')">
       <figcaption>${it.title}${it.year?` (${it.year})`:''}${it.medium?` — ${it.medium}`:''}${it.size?` — ${it.size}`:''}</figcaption>
-    </figure>`).join('');
+    </figure>`;
+  }).join('');
 }
 
 const initial = decodeURIComponent(location.hash.slice(1)) || YEARS[0];

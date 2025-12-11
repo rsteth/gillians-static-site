@@ -5,28 +5,28 @@
     "medium": "oil on canvas",
     "size": "20 x 16 inches",
     "collection": "Private Collection, Vancouver BC",
-    "src": "/media/2021/work-01.jpg"
+    "src": "media/2021/work-01.jpg"
   },
   {
     "title": "Untitled",
     "year": "2021",
     "medium": "oil on canvas",
     "size": "16 x 20 inches",
-    "src": "/media/2021/work-02.jpg"
+    "src": "media/2021/work-02.jpg"
   },
   {
     "title": "Untitled",
     "year": "2021",
     "medium": "oil on canvas",
     "size": "37 x 30 inches",
-    "src": "/media/2021/work-03.jpg"
+    "src": "media/2021/work-03.jpg"
   },
   {
     "title": "Untitled",
     "year": "2021",
     "medium": "oil on canvas",
     "size": "37 x 30 inches",
-    "src": "/media/2021/work-04.jpg"
+    "src": "media/2021/work-04.jpg"
   },
   {
     "title": "Untitled",
@@ -34,7 +34,7 @@
     "medium": "oil on canvas",
     "size": "16 x 12 inches",
     "collection": "Private Collection, Smithers BC",
-    "src": "/media/2021/work-05.jpg"
+    "src": "media/2021/work-05.jpg"
   },
   {
     "title": "Untitled",
@@ -42,7 +42,7 @@
     "medium": "oil on canvas",
     "size": "26 x 21 inches",
     "collection": "Private Collection, Vancouver BC",
-    "src": "/media/2021/work-06.jpg"
+    "src": "media/2021/work-06.jpg"
   },
   {
     "title": "Untitled",
@@ -50,7 +50,7 @@
     "medium": "oil on canvas",
     "size": "19 x 15 inches",
     "collection": "Private Collection, Vancouver BC",
-    "src": "/media/2021/work-07.jpg"
+    "src": "media/2021/work-07.jpg"
   },
   {
     "title": "Lovely Snipe and Tender Turn",
@@ -58,7 +58,7 @@
     "medium": "oil, acrylic, and paper on canvas",
     "size": "14 x 11 inches",
     "collection": "Private Collection, Vancouver BC",
-    "src": "/media/2021/lovely-snipe-tender-turn.jpg"
+    "src": "media/2021/lovely-snipe-tender-turn.jpg"
   },
   {
     "title": "Untitled",
@@ -66,14 +66,14 @@
     "medium": "oil, acrylic, and paper on canvas",
     "size": "14 x 11 inches",
     "collection": "Private Collection, Vancouver BC",
-    "src": "/media/2021/work-08.jpg"
+    "src": "media/2021/work-08.jpg"
   },
   {
     "title": "Untitled",
     "year": "2021",
     "medium": "oil on canvas",
     "size": "54 x 66 inches",
-    "src": "/media/2021/work-09.jpg"
+    "src": "media/2021/work-09.jpg"
   },
   {
     "title": "Untitled",
@@ -81,6 +81,6 @@
     "medium": "oil on canvas",
     "size": "19 x 15 inches",
     "collection": "Private collection, Vancouver BC",
-    "src": "/media/2021/work-10.jpg"
+    "src": "media/2021/work-10.jpg"
   }
 ]
