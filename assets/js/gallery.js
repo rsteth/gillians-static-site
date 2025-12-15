@@ -5,46 +5,15 @@ const LB = {
   el: document.getElementById('lightbox'),
   img: document.getElementById('lbImg'),
   cap: document.getElementById('lbCap'),
-  showingCaption: false,
   open(src, title, meta){
     this.img.src = src;
     this.cap.innerHTML = `<span class="caption-title">${title || ''}</span><span class="caption-meta">${meta || ''}</span>`;
     this.el.classList.add('open');
-    this.showingCaption = false;
-    this.img.classList.remove('fade-out');
-    this.cap.classList.remove('visible');
   },
-  toggle(){
-    this.showingCaption = !this.showingCaption;
-    if(this.showingCaption){
-      this.img.classList.add('fade-out');
-      this.cap.classList.add('visible');
-    } else {
-      this.img.classList.remove('fade-out');
-      this.cap.classList.remove('visible');
-    }
-  },
-  close(){
-    this.el.classList.remove('open');
-    this.img.src = '';
-    this.cap.innerHTML = '';
-    this.showingCaption = false;
-    this.img.classList.remove('fade-out');
-    this.cap.classList.remove('visible');
-  }
+  close(){ this.el.classList.remove('open'); this.img.src=''; this.cap.textContent='';}
 };
 window.LB = LB;
-LB.el.addEventListener('click', (e)=>{
-  if(e.target === LB.el) LB.close();
-});
-LB.img.addEventListener('click', (e)=>{
-  e.stopPropagation();
-  LB.toggle();
-});
-LB.cap.addEventListener('click', (e)=>{
-  e.stopPropagation();
-  LB.toggle();
-});
+LB.el.addEventListener('click', (e)=>{ if(e.target===LB.el) LB.close(); });
 
 function tabTemplate(year, active){ return `<button class="tab ${active?'active':''}" role="tab" aria-selected="${!!active}" onclick="loadYear('${year}', this)">${year}</button>`; }
 
@@ -60,7 +29,7 @@ async function loadYear(year, btn){
     return `
     <figure class="thumb">
       <img src="${imgSrc}" alt="${it.title}" onclick="LB.open(this.src, '${it.title}', '${it.medium||''}${it.year ? ', ' + it.year : ''}')">
-      <figcaption>${it.title}${it.year?` (${it.year})`:''}${it.medium?` — ${it.medium}`:''}${it.size?` — ${it.size}`:''}</figcaption>
+      <figcaption><span class="caption-title">${it.title}</span><span class="caption-meta">${it.medium||''}${it.year ? ', ' + it.year : ''}</span></figcaption>
     </figure>`;
   }).join('');
 }
