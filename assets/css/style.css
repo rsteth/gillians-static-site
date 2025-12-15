@@ -117,6 +117,7 @@ img{max-width:100%;height:auto;display:block}
   opacity:0;
   transition:opacity .4s ease;
   padding:16px;
+  pointer-events:none;
 }
 .thumb:hover figcaption{opacity:1}
 .thumb .caption-title{
